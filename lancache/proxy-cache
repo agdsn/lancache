@@ -1,5 +1,5 @@
 # Proxy Cache
-include lancache/proxy-base;
+include lancache/lancache/proxy-base;
 
 # Only download one copy at a time and use a large timeout so
 # this really happens, otherwise we end up wasting bandwith

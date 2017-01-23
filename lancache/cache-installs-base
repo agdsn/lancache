@@ -1,2 +1,2 @@
 proxy_cache installs;
-include lancache/proxy-cache;
+include lancache/lancache/proxy-cache;
