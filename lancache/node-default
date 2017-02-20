@@ -1,7 +1,7 @@
 # Default Node
-include lancache/resolver;
-include lancache/cache-key-default;
+include lancache/lancache/resolver;
+include lancache/lancache/cache-key-default;
 
 location / {
-	include lancache/cache-installs;
+	include lancache/lancache/cache-installs;
 }
